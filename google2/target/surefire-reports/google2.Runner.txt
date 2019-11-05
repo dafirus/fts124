@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: google2.Runner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 4, Skipped: 1, Time elapsed: 29.674 s <<< FAILURE! - in google2.Runner
+Given que acesso o site do Google1(Scenario: Busca Termo Unico com Enter)  Time elapsed: 0.015 s  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+?.Given que acesso o site do Google1(ConsultarInglesPO.feature:4) matches more than one step definition:
+  que acesso o site do Google in ConsultarIngles.que_acesso_o_site_do_Google()
+  que acesso o site do Google1$ in ConsultarInglesPO.que_acesso_o_site_do_Google()
+
+
+Scenario: Busca Termo Unico com Enter  Time elapsed: 0.015 s  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+?.Given que acesso o site do Google1(ConsultarInglesPO.feature:4) matches more than one step definition:
+  que acesso o site do Google in ConsultarIngles.que_acesso_o_site_do_Google()
+  que acesso o site do Google1$ in ConsultarInglesPO.que_acesso_o_site_do_Google()
+
+
+When digito o termo "geladeira" e pressiono Enter1(Scenario: Busca Termo Unico com Enter)  Time elapsed: 0 s  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+?.When digito o termo "geladeira" e pressiono Enter1(ConsultarInglesPO.feature:5) matches more than one step definition:
+  digito o termo "([^"]*)" e pressiono Enter in ConsultarIngles.digito_o_termo_e_pressiono_Enter(String)
+  digito o termo "([^"]*)" e pressiono Enter1$ in ConsultarInglesPO.digito_o_termo_e_pressiono_Enter(String)
+
+
+Scenario: Busca Termo Unico com Enter  Time elapsed: 0 s  <<< ERROR!
+cucumber.runtime.AmbiguousStepDefinitionsException: 
+?.When digito o termo "geladeira" e pressiono Enter1(ConsultarInglesPO.feature:5) matches more than one step definition:
+  digito o termo "([^"]*)" e pressiono Enter in ConsultarIngles.digito_o_termo_e_pressiono_Enter(String)
+  digito o termo "([^"]*)" e pressiono Enter1$ in ConsultarInglesPO.digito_o_termo_e_pressiono_Enter(String)
+
+
